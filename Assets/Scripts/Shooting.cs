@@ -47,7 +47,7 @@ namespace Functions
             // If SPACEBAR is pressed AND shootTimer is >= shootRate, then CALL Shoot() and RESET shootTimer = 0
             // shootTimer and shootRate work together to create the RATE OF FIRE
 
-            //SENSIBLE PINEAPPLE
+            //RANDOM PINEAPPLE
 
             if (Input.GetKey(KeyCode.Space) && shootTimer >= shootRate)
             {
